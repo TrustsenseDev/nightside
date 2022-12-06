@@ -10,7 +10,7 @@ if getgenv().library then
 getgenv().library:Unload()
 end
 
-local library = {tabs = {}, draggable = true, flags = {}, title = 'nightside.net | ' .. shared.version, open = false, mousestate = true, popup = nil, instances = {}, connections = {}, options = {}, notifications = {}, tabSize = 0, theme = {}, foldername = 'nightsideConfigs', fileext = '.night'}
+local library = {tabs = {}, draggable = true, flags = {}, title = 'nightside.net | ' .. getgenv().version, open = false, mousestate = true, popup = nil, instances = {}, connections = {}, options = {}, notifications = {}, tabSize = 0, theme = {}, foldername = 'nightsideConfigs', fileext = '.night'}
 getgenv().library = library
 
 --Locals
